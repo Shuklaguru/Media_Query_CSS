@@ -1,0 +1,41 @@
+body{
+    margin: 0px;
+    width: 100%;
+    height: 100%;
+}
+.container{
+    margin: 0px ;
+    display: flex;
+    display: flex;
+     flex-grow: calc(3);
+}
+#sidebar{
+    background-color: black;
+    height: 100vh;
+    width: 50px;
+    color: white;
+    padding: 2px; 
+    border: 1px solid black;
+    
+}
+.center .up{
+    width: 100%;
+    height: 50%;
+    align-items: center;
+    background-color: chartreuse;
+    border: 1px solid black;
+
+}
+.center .down{
+    width: 100%;
+    height: 50%;
+    align-items: center;
+    background-color: rgb(228, 122, 35);
+    border: 1px solid black;
+}
+@media  screen and (max-width: 600) {
+    .container{
+        flex-direction: column;
+        align-items: center;
+    }
+}

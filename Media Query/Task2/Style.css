@@ -1,0 +1,25 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    margin: 1%;
+    padding: 2%;
+    border: 1px solid black;
+}
+.gallery img{
+    width: 30%;
+    margin: 10px;
+}
+@media screen and (max-width: 500px ){
+    .gallery img{
+       width: 100%;
+    }
+    
+}
+@media screen and (max-width: 800px ){
+    .gallery img{
+        width: 45%;
+    }
+    
+}
